@@ -5,7 +5,7 @@
 ## 🛠 Технологии
 - **Language:** Go 1.2x
 - **Framework:** Gin-Gonic
-- **Testing:** Thunder Client / Postman
+- **Testing:** Thunder Client / Postman / cURL
 
 ## 🚀 Быстрый запуск
 1. Установите зависимости: `go mod tidy`
