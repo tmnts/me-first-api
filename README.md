@@ -39,7 +39,7 @@
 
 **Success Response (201 Created)**: Вы теперь ямайский пакман.
 
-**Error Response** (400 Bad Request)**: Данила Багров скажет вам базу при кривом JSON.
+**Error Response (400 Bad Request)**: Данила Багров скажет вам базу при кривом JSON.
 
 ## 🧛 Как отличить GET от POST при помощи cURL
 
