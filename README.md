@@ -37,9 +37,33 @@
 
 ### 5. Responses
 
-Success Response (201 Created): Вы теперь ямайский пакман.
+**Success Response** (201 Created): Вы теперь ямайский пакман.
 
-Error Response (400 Bad Request): Данила Багров скажет вам базу при кривом JSON.
+**Error Response** (400 Bad Request): Данила Багров скажет вам базу при кривом JSON.
+
+### 6. Как отличить GET от POST при помощи curl
+
+**GET** 404 ERROR (404-АЯ ОШИБКА)
+
+```bash curl http://localhost:8080/
+```
+
+**GET** HELLO (БАЗОВЫЙ ОТВЕТ СЕРВЕРА)
+
+```bash curl http://localhost:8080/hello
+```
+
+**GET** DOG DATA (ГЕТ ПРО СОБАЧЕК)
+
+```bash curl http://localhost:8080/dog/sharik
+```
+
+**POST** A NEW DOG (ОТПРАВИТЬ ДАННЫЕ В ФОРМАТЕ JSON)
+
+```bash curl -X POST http://localhost:8080/dog \
+     -H "Content-Type: application/json" \
+     -d '{"name": "БАРБОС", "breed": "БАНХАР"}'
+```
 
 ## 📊 Архитектура (Mermaid)
 
