@@ -25,7 +25,7 @@
 
 - **Example:** `/dog/sharik`
 
-### 4. Add New Dog
+### 4. Add New Dawg
 `POST /dog` — Добавление новой собаки в пак.
 - **Body (JSON):**
 ```json
@@ -41,7 +41,7 @@
 
 **Error Response** (400 Bad Request): Данила Багров скажет вам базу при кривом JSON.
 
-## 🧛 Как отличить GET от POST при помощи curl
+## 🧛 Как отличить GET от POST при помощи cURL
 
 **GET** 404 ERROR (404-АЯ ОШИБКА)
 
