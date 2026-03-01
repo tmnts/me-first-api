@@ -45,22 +45,26 @@
 
 **GET** 404 ERROR (404-АЯ ОШИБКА)
 
-```bash curl http://localhost:8080/
+```bash 
+curl http://localhost:8080/
 ```
 
 **GET** HELLO (БАЗОВЫЙ ОТВЕТ СЕРВЕРА)
 
-```bash curl http://localhost:8080/hello
+```bash 
+curl http://localhost:8080/hello
 ```
 
 **GET** DOG DATA (ГЕТ ПРО СОБАЧЕК)
 
-```bash curl http://localhost:8080/dog/sharik
+```bash 
+curl http://localhost:8080/dog/sharik
 ```
 
 **POST** A NEW DOG (ОТПРАВИТЬ ДАННЫЕ В ФОРМАТЕ JSON)
 
-```bash curl -X POST http://localhost:8080/dog \
+```bash 
+curl -X POST http://localhost:8080/dog \
      -H "Content-Type: application/json" \
      -d '{"name": "БАРБОС", "breed": "БАНХАР"}'
 ```
