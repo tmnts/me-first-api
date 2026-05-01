@@ -10,7 +10,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "Welcome to Me-First-API!",
-			"status":  "Me a go document di whole tingg ME A GO BE DEVMAN",
+			"status":  "Me a go document di whole tingg",
 			"hint":    "U a go try /hello or /dog/sharik an MAGIC A GO HAPPEN",
 		})
 	})
